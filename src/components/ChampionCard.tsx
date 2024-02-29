@@ -19,7 +19,6 @@ const roleIcons: { [index: string]: any } = {
 }
 
 interface ChampionCardProps {
-  // key: number
   name: string
   id: string
   tags: string[]

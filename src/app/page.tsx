@@ -33,8 +33,6 @@ export default async function Home({
         )
       : champList
 
-  // filteredChamps.forEach((champ) => console.log(champ.tags))
-
   return (
     <main className="mx-auto my-12 max-w-7xl space-y-6 px-5">
       <Image src={logo} alt="page logo" className="mx-auto" />

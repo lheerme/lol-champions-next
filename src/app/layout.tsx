@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
 import { Cinzel } from 'next/font/google'
-import localFont from 'next/font/local'
 import './globals.css'
 
-// const inter = Inter({ subsets: ['latin'] })
 const cinzel = Cinzel({
   subsets: ['latin'],
 })
