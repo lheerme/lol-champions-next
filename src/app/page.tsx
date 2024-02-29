@@ -35,7 +35,9 @@ export default async function Home({
 
   return (
     <main className="mx-auto my-12 max-w-7xl space-y-6 px-5">
-      <Image src={logo} alt="page logo" className="mx-auto" />
+      <h1 className="font-medium xsm:text-2xl text-center">
+        League of Legends Champions
+      </h1>
       <SearchBar />
 
       {!filteredChamps.length && (

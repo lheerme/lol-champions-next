@@ -18,7 +18,7 @@ export function SearchBar() {
   }
 
   return (
-    <form className="w-full space-y-3">
+    <form className="w-full xsm:w-[80%] mx-auto space-y-3">
       <div className="flex items-center gap-3">
         <label htmlFor="search">
           <Search className="size-5 text-neutral-500" />
@@ -29,7 +29,7 @@ export function SearchBar() {
           autoComplete="off"
           value={inputValue}
           placeholder="Busque um campeão..."
-          className="w-full bg-transparent text-xl tracking-tight placeholder:text-neutral-500 placeholder:font-medium outline-none"
+          className="w-full bg-transparent text-lg tracking-tight placeholder:text-neutral-500 placeholder:font-medium outline-none"
           onChange={handleInputChange}
         />
       </div>
