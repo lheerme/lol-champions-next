@@ -38,7 +38,7 @@ export default async function Home({
       <h1 className="font-medium xsm:text-2xl text-center">
         League of Legends Champions
       </h1>
-      <SearchBar />
+      {/* <SearchBar /> */}
 
       {!filteredChamps.length && (
         <div className="w-full flex flex-col items-center space-y-2">
