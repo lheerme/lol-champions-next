@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+import withPlaiceholder from '@plaiceholder/next'
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'ddragon.leagueoflegends.com',
+      },
+    ],
+  },
+}
 
-export default nextConfig;
+export default withPlaiceholder(nextConfig)
