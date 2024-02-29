@@ -24,7 +24,7 @@ interface ChampionCardProps {
   tags: string[]
 }
 
-export async function ChampionCard({ name, id, tags }: ChampionCardProps) {
+export function ChampionCard({ name, id, tags }: ChampionCardProps) {
   function handleIdCase(id: string) {
     if (id !== 'FiddleSticks') {
       return id
